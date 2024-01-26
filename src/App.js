@@ -15,7 +15,7 @@ function App() {
   return (
     <div className={`app-container ${theme === 'light' ? 'light-theme' : 'dark-theme'}`}>
       <Navbar theme={theme} toggleMode={toggleMode} />
-      {/* Your other components */}
+      {/* Your other components testing */}
 
       <BusTrackingUI/>
       <Buses/>
